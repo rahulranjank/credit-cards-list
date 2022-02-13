@@ -1,0 +1,52 @@
+$heightSize1: 1.6em;
+$widthSize:  5em;
+
+*{
+    padding: 0;
+    margin: 4px;
+    box-sizing: border-box; 
+  }
+
+  html{
+    font-size: 15px;
+    font-family: 'Roboto Mono';  
+    /* background-color: orange;  */
+    width: 88%;
+    margin:  1rem ;
+    border-radius: 3px;
+    padding: 0.5rem;
+    max-width: 100%;
+    margin: auto;
+    background-color: whitesmoke;
+    
+  }
+
+
+  @mixin bstyles($bcolor) {
+    font-family: Montserrat, sans-serif;
+    transition-duration: 0.7s;
+    margin : 0;
+    height: $heightSize1;
+    width: $widthSize;
+    color: white;
+    background-color: $bcolor;
+    border-radius: 0.5em;
+    border: 0;
+  }
+
+  
+  .buttonEdit{
+    @include bstyles(orange);
+  }
+ 
+  .buttonDelete{
+    @include bstyles(red);
+  }
+
+  .buttonBack{
+    @include bstyles(white);
+  }
+ 
+
+ 
+ 

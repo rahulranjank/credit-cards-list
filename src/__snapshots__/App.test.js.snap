@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Take a snapshot should take a snapshot 1`] = `
+<DocumentFragment>
+  <main
+    class="container"
+  >
+    <div>
+      <div>
+        <div>
+          <div>
+            <div>
+              List of Credit Cards
+            </div>
+            <br />
+            <a
+              href="/add"
+            >
+              <div>
+                <button
+                  class="add-credit-card-button"
+                >
+                   Add Credit Card
+                </button>
+              </div>
+            </a>
+          </div>
+          <div>
+            <p>
+              No card available. Please add some cards.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</DocumentFragment>
+`;
